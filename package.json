@@ -1,0 +1,26 @@
+{
+  "name": "news-app",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.3.1"
+  },
+  "description": "News app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodicamedan/news-app2.git"
+  },
+  "keywords": [
+    "news"
+  ],
+  "author": "Rodica Medan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodicamedan/news-app2/issues"
+  },
+  "homepage": "https://github.com/rodicamedan/news-app2#readme"
+}
