@@ -2,7 +2,7 @@ import http from "http";
 import { readFile } from "fs/promises";
 
 const hostname = "127.0.0.1";
-const port = 3000;
+const port = 80;
 
 http
   .createServer(async (req, res) => {
@@ -17,9 +17,9 @@ http
         res.statusCode = 500;
         res.end("Server Error");
       }
-    } else if (req.url === "/app.js") {
+    } else if (req.url === "/script.js") {
       try {
-        const js = await readFile("./public/app.js");
+        const js = await readFile("./public/script.js");
         res.statusCode = 200;
         res.setHeader("Content-Type", "text/javascript");
         res.end(js);
