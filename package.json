@@ -7,9 +7,7 @@
   },
   "description": "News app",
   "main": "app.js",
-  "scripts": {
-    "test": "mocha"
-  },
+ 
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rodicamedan/news-app2.git"
