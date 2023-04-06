@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'todaylatestnews'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_490122A5A0B940CEA9B9EB80D8EC016B }}
+          publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE}}
           package: .
