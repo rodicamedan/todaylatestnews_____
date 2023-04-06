@@ -1,16 +1,20 @@
+
 {
   "name": "news-app",
   "version": "1.0.0",
   "type": "module",
   "dependencies": {
+    "express": "^4.17.2",
     "node-fetch": "^3.3.1"
   },
   "description": "News app",
   "main": "app.js",
- 
+  "scripts": {
+    "start": "node app.js"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rodicamedan/news-app2.git"
+    "url": "git+https://github.com/rodicamedan/todaylatestnews.git"
   },
   "keywords": [
     "news"
@@ -18,7 +22,7 @@
   "author": "Rodica Medan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rodicamedan/news-app2/issues"
+    "url": "https://github.com/rodicamedan/todaylatestnews/issues"
   },
-  "homepage": "https://github.com/rodicamedan/news-app2#readme"
+  "homepage": "https://github.com/rodicamedan/todaylatestnews#readme"
 }
