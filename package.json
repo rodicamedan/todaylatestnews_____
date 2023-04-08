@@ -1,4 +1,3 @@
-
 {
   "name": "news-app",
   "version": "1.0.0",
@@ -8,7 +7,6 @@
     "node-fetch": "^3.3.1"
   },
   "description": "News app",
-  "exports": "./app.js",
   "scripts": {
     "start": "node app.js"
   },
