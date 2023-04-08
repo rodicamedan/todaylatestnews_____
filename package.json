@@ -8,7 +8,7 @@
     "node-fetch": "^3.3.1"
   },
   "description": "News app",
-  "main": "app.js",
+  "exports": "./app.js",
   "scripts": {
     "start": "node app.js"
   },
