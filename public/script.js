@@ -1,4 +1,4 @@
-const url = `https://newsapi.org/v2/top-headlines?country=us&apiKey=8c6255310e15495485f78bb17b744a5e`;
+const url = `https://gnews.io/api/v4/search?q=example&apikey=604d2a82a1251629959ae09aa23ecf53`;
 
 fetch(url)
   .then((response) => {
@@ -18,7 +18,7 @@ fetch(url)
       const li = document.createElement("li");
       li.innerHTML = `
         <a href="${article.url}">
-          <img src="${article.urlToImage}" alt="${article.title}" style="width: 200px;height: auto;margin-right: 20px; ">
+          <img src="${article.image}" alt="${article.title}" style="width: 200px;height: auto;margin-right: 20px; ">
           <h2 class="article-title" style="font-size: 1.2rem; margin: 0;">${article.title}</h2>
         </a>
         <p class="article-description">${article.description}</p>
